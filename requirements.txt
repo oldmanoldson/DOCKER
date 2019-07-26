@@ -25,4 +25,3 @@ networkx
 swiglpk
 xlrd
 qpsolvers
-jupyterlab
