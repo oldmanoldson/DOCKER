@@ -11,7 +11,7 @@ seaborn
 statsmodels
 plotly
 flask
-https
+http
 re
 random
 json
