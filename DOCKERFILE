@@ -16,17 +16,17 @@ RUN mkdir /analysis
 # set the working directory
 WORKDIR /analysis
 
-# add python libraries
-ADD requirements.txt /analysis/
-
-# run the requirements.txt to pip install
-RUN pip install -r requirements.txt
-
 # add to working directory
 ADD . /analysis/
 
+# add python libraries
+ADD requirements.txt /analysis/
+
 # make notebooks directory
 RUN mkdir /notebooks
+
+# run the requirements.txt to pip install
+RUN pip install -r requirements.txt
 
 # run docker container with Jupyter Notebook
 CMD jupyter notebook --no-browser --ip 0.0.0.0 --port 8888 /notebooks
