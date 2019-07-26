@@ -11,10 +11,6 @@ seaborn
 statsmodels
 plotly
 flask
-http
-re
-random
-json
 uuid
 spacy
 nltk
@@ -23,5 +19,4 @@ sunburnt
 networkx
 swiglpk
 xlrd
-qpsolvers
 jupyter
