@@ -3,7 +3,9 @@ Docker repo for installation of python and jupyter in the container
 
 ### Install Docker
 Go to the Docker website:  https://www.docker.com/products/docker-desktop and click on Download Desktop for Mac and Windows.  Follow the on-screen installation prompts to install.
-**Note:**  Windows Users must enable hyper-V in both the bios and registry.
+**Note:**  Windows Users must enable hyper-V in both the bios and features:
+- https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
+- For Bios:  Upon computer restart hit either F2, F10, or F12 to enter the BIOS; Navigate to CPU configuration or advanced features, or something similar, what you're looking for is **Enable Intel Virtualization**; Completely enable that feature, then save and exit your BIOS settings.  Your computer should restart.
 
 ### Setup
 - Download the *DOCKERFILE* and the *requirements.txt* file from the repo (jupyter-notebook branch)
