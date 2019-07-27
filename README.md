@@ -34,6 +34,7 @@ Go to the Docker website:  https://www.docker.com/products/docker-desktop and cl
 These are some pretty standard data science modules but feel free to download or fork and your own modules
 ### Build and Run the Docker container
 - Open Windows Powershell or Mac Terminal
+- Navigate to directory where you put both the *DOCKERFILE* and the *requirements.txt* file, have to be in the same directory
 - **Run:**  `docker build --tag=notebook .`
     - **Note:**  the period is important after *notebook* and must be included
 - **Run:**  `docker run -p 8888:8888 -v <local-directory>:/notebooks notebook`
