@@ -3,6 +3,7 @@ Docker repo for installation of python and jupyter in the container
 
 ### Install Docker
 Go to the Docker website:  https://www.docker.com/products/docker-desktop and click on Download Desktop for Mac and Windows.  Follow the on-screen installation prompts to install.
+
 **Note:**  Windows Users must enable hyper-V in both the bios and features:
 - https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
 - For Bios:  Upon computer restart hit either F2, F10, or F12 to enter the BIOS; Navigate to CPU configuration or advanced features, or something similar, what you're looking for is **Enable Intel Virtualization**; Completely enable that feature, then save and exit your BIOS settings.  Your computer should restart.
@@ -33,6 +34,7 @@ Go to the Docker website:  https://www.docker.com/products/docker-desktop and cl
     - swiglpk
     - xlrd
     - jupyter
+
 These are some pretty standard data science modules but feel free to download or fork and your own modules
 ### Build and Run the Docker container
 - Open Windows Powershell or Mac Terminal
