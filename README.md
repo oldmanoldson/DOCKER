@@ -33,6 +33,9 @@ Go to the Docker website:  https://www.docker.com/products/docker-desktop and cl
     - networkx
     - swiglpk
     - xlrd
+    - xmltojson
+    - bs4
+    - requests
     - jupyter
 
 These are some pretty standard data science modules but feel free to download or fork and your own modules
