@@ -14,7 +14,7 @@ flask
 uuid
 spacy
 nltk
-pysolr
+kaleido
 sunburnt
 networkx
 swiglpk
